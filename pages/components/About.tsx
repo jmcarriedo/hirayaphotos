@@ -32,7 +32,6 @@ const About = () => {
                 <div className={styles.description}>
                     We offer wedding and lifestyle photography in Sydney, Australia.
                     <br/>
-                    {/* We offer photo sessions for kids and families and photo coverage for events and celebrations. */}
                 </div>
                 
 
@@ -57,9 +56,6 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* <div style={{display:"flex", justifyContent: "center", marginTop: "15px"}}>
-                    <Image src="/leaf.png" alt="Hiraya Moments" width={220} height={42}/>
-                </div> */}
 
                 <div className={styles.grid} style={{background:"#fbfbfb",width:"100vw"}}>
                     <div>
@@ -79,22 +75,6 @@ const About = () => {
                 </div>
             </motion.div>
         </main>
-      {/* <div className={styles.description}>
-          <span className="hiraya">Hiraya</span> is an ancient Filipino word meaning “the fruit of one's hopes, dreams, and aspirations." 
-          <br/><br/>
-          Growing up, we used to watch Hiraya Manawari on television. Each episode was always full of wonder and magic.
-          <br/>
-          This is where we got the inspiration for our studio name. 
-          <br/><br/>
-          For each photo session, our goal is to capture the wonder and magic of your moments.
-          <br/>
-          It is our dream to be able to create a picture that will tell your story and touch your heart every time you see it.
-          <br/><br/>
-          <span className="hiraya">
-          “The most beautiful things in the world...are felt with the heart.”
-          </span>
-          <br/><br/>
-      </div> */}
     </>
   )
 }

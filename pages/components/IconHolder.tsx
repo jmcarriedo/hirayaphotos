@@ -44,11 +44,11 @@ const IconHolder = ({ icon, text, desc }: any) => {
             exit={"initial"}
             animate={"animate"}
           >
-            {/* {text} */}
+            {text}
             
-            {/* <div className="icon-holder__desc">
+            <div className="icon-holder__desc">
               {desc}
-            </div> */}
+            </div>
           </motion.h1>
           
       </AnimatePresence>

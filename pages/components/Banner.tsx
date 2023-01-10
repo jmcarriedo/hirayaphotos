@@ -21,7 +21,6 @@ const Banner = () => {
 
   return (
     <div className="hero">
-      {/* <IconHolder icon={currentScene.icon} text={currentScene.text} desc={currentScene.desc}/> */}
       <IconHolder icon={" "} text={currentScene.text} desc={currentScene.desc}/>
 
       <ImageHolder 

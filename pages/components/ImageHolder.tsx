@@ -15,9 +15,7 @@ const getRandomNumberBetween = (min: number, max: number): number => {
 const getRandomDelay = (min: number, max: number): number => {
   return Math.floor(Math.random() * max) + min;
 }
-// const getRandomDelay= (max_s: number): number => {
-//   return Math.random() * max_s;
-// }
+
 
 const ImageHolder = ({img, className}: imageItem) => {
   return (
